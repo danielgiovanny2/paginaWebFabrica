@@ -1,3 +1,5 @@
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,12 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- librerias para bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- estilos slideshowGallery y js slideshowGallery-->
-    <script type="text/javascript" src="/js/slydeshowGallery.js"></script>
-    <link rel="stylesheet" href="/css/slydeshowGallery.css">
     
+    <link rel="stylesheet" href="/css/slydeshowGallery.css">
+    <link rel="stylesheet" href="/css/paralax.css">
 
     
+
+
+
 
     <title>Document</title>
 </head>
@@ -27,33 +31,33 @@
                   
                     <div class="mySlides">
                     <div class="numbertext">1 / 6</div>
-                    <img src="/images/slideshowGallery/1.jpg" style="width: 100%">
+                    <img src="/images/slideshowGallery/1.jpg" style="width: 100%" alt="">
                     
                 </div>
                 
                   <div class="mySlides">
                     <div class="numbertext">2 / 6</div>
-                    <img src="/images/slideshowGallery/2.jpg" style="width:100%">
-                  </div>
+                    <img src="/images/slideshowGallery/2.jpg" style="width:100%" alt="">
+                  </div> 
                 
                   <div class="mySlides">
                     <div class="numbertext">3 / 6</div>
-                    <img src="/images/slideshowGallery/1.jpg" style="width:100%">
+                    <img src="/images/slideshowGallery/1.jpg" style="width:100%" alt="">
                   </div>
                     
                   <div class="mySlides">
                     <div class="numbertext">4 / 6</div>
-                    <img src="/images/slideshowGallery/2.jpg" style="width:100%">
+                    <img src="/images/slideshowGallery/2.jpg" style="width:100%" alt="">
                   </div>
                 
                   <div class="mySlides">
                     <div class="numbertext">5 / 6</div>
-                    <img src="/images/slideshowGallery/1.jpg" style="width:100%">
+                    <img src="/images/slideshowGallery/1.jpg" style="width:100%" alt="">
                   </div>
                     
                   <div class="mySlides">
                     <div class="numbertext">6 / 6</div>
-                    <img src="/images/slideshowGallery/2.jpg" style="width:100%">
+                    <img src="/images/slideshowGallery/2.jpg" style="width:100%" alt="">
                   </div>
                     
                   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -90,7 +94,34 @@
             </div>
             
             <!-- div para quienes somos -->
+            
             <div class="quienesSomos">
+            
+              <div id="overlay" onclick="off()">
+                <div id="text">
+                  
+                  <h1 style="padding-bottom: 50px;  text-align: center">INDUSTRIA DE PRODUCTOS LACTEOS IANNINI LTDA</h1>
+                  
+                  <img src="/images/slideshowGallery/1.jpg" alt="">
+                  <p style="padding-top: 15px;  text-align: center; font-size: 16px"> La empresa Industria De Productos Lacteos Iannini S A S se encuentra ubicada en la localidad de BOGOTA, en el departamento de BOGOTA. El domicilio social de esta empresa es CALLE 166 19 B 24, BOGOTA, BOGOTA.
+
+                      La forma jurídica de Industria De Productos Lacteos Iannini S A S es SOCIEDAD POR ACCIONES SIMPLIFICADA y su principal actividad es "Elaboracion de productos lacteos".
+            
+                  </p>
+                  
+                  
+            
+                </div>
+                 </div> 
+                  
+                 <div style="padding:absolute; color: black; text-align: center">
+                    <h2>Quienes somos?</h2>
+                    <button onclick="on()">Turn on overlay effect</button>
+                  </div>    
+
+                
+                
+                    
 
                 <!-- cierra div quienes somos -->
             </div>
@@ -110,3 +141,6 @@
     </footer>
 </body>
 </html>
+
+<!-- estilos slideshowGallery y js slideshowGallery-->
+<script type="text/javascript" src="/js/slydeshowGallery.js"></script>
