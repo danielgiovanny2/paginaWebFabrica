@@ -1,0 +1,174 @@
+***************************************************************************************
+**************************** REFERENCIAS WEB ******************************************
+
+14:19
+Como hacer un slideshow con Bootstrap [Capitulo 32, Curso completo de Bootstrap]
+FalconMasters
+https://www.youtube.com/watch?v=LsN2jkLruKA&t=201s&list=LLM6APMHTrhZ9wIqw7JwIFGg&index=1
+
+
+Tabla de colores para páginas web
+https://www.cerotec.net/tabla-colores-web/
+
+How TO - Tabs
+https://www.w3schools.com/howto/howto_js_tabs.asp
+
+How TO - Portfolio Gallery
+https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp
+
+*********************************************
+**********IMPORTACIÓN DE BOOTSTRAP***********
+BOOTSTRAP MINIMIZADO
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+*********IMPORTACIÓN DE JQUERY************
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+************IMPORTACIÓN DE JAVASCRIPT**********
+<script type="text/javascript" src="/js/slydeshowGallery.js"></script>
+
+
+
+*********************************************
+*************CODIGOS GIT*********************
+git status   -->  para mirar como está nuestro proyecto qué archivos se van a subir
+git add -A
+git commit -m "(el mensaje que queremos escribir dentro del commit)""
+
+********comprobar en qué rama  estamos ***********
+git branch 
+
+******** eliminar una rama **************
+git branch -D (nombre de la rama)
+
+******** crear una nueva rama **********
+git branch (nombre de la rama )
+
+******** movernos entre ramas **********
+git checkout (nombre de la rama)
+
+******* clonar un proyecto desde GITHUB ***********
+git clone    -> toma un proyecto y lo pasamos completo a la computadora
+lo colocamos como https -> copiamos 
+vamos a la carpeta que queremos descargar todo el contenido.  sirve solo para mirar y para no contribuir en el 
+github
+        git clone --> pegamos la dirección que copiamos
+
+********* CARGAR NUESTRO PROYECTO EN GITHUB **********
+git remote add origin (link https)  -> conectamos
+git remote -v  -> ver como esta el remote
+git remote remove origin  --> quitamos la conexión 
+
+******** PASAR CONTENIDO DE NUESTRA COMPUTADORA A GIT HUB ***************
+git push origin master 
+
+******** HACER RAMAS Y CLONARLAS **************
+git branch gh-pages  // creamos la rama gh-pages
+git branch              //verificamos
+git push origin gh-pages        //cargamos la rama a github
+usuario y contraseña 
+
+*****************************************************************************************************
+*************************** VENTANAS TRANSPARENTES MAXIMIZADAS***************************************
+<div id="overlay" onclick="off()">
+                <div id="text">
+                  
+                  <h1 style="padding-bottom: 50px;  text-align: center">INDUSTRIA DE PRODUCTOS LACTEOS IANNINI LTDA</h1>
+                  
+                  <img src="/images/slideshowGallery/1.jpg" alt="">
+                  <p style="padding-top: 15px;  text-align: center; font-size: 16px"> La empresa Industria De Productos Lacteos Iannini S A S se encuentra ubicada en la localidad de BOGOTA, en el departamento de BOGOTA. El domicilio social de esta empresa es CALLE 166 19 B 24, BOGOTA, BOGOTA.
+
+                      La forma jurídica de Industria De Productos Lacteos Iannini S A S es SOCIEDAD POR ACCIONES SIMPLIFICADA y su principal actividad es "Elaboracion de productos lacteos".
+            
+                  </p>
+                  
+                  
+            
+                </div>
+                 </div> 
+                  
+                 <div style="padding:absolute; color: black; text-align: center">
+                    <h2>Quienes somos?</h2>
+                    <button onclick="on()">Turn on overlay effect</button>
+                  </div>    
+
+*****************************************************************************************************
+*****************************************************************************************************
+
+************************** TIPOS DE CONTAINER'S EN BOOTSTRAP **************************************
+The .container class provides a responsive fixed width container
+The .container-fluid class provides a full width container, spanning the entire width of the viewport
+
+el que se utilizó en los div de la web fue *container* porque se acopla perfectamente a los demás div. 
+
+Información de la batería:
+
+  Información sobre el modelo:
+  Número de serie:	W040540MHD3LC
+  Fabricante:	SMP
+  Nombre del dispositivo:	bq20z451
+  Pack Lot Code:	0
+  PCB Lot Code:	0
+  Versión del firmware:	201
+  Revisión de hardware:	000a
+  Revisión de celda:	165
+  Información sobre la carga:
+  Carga restante (mAh):	4212
+  Totalmente cargada:	No
+  Cargando:	Sí
+  Capacidad de carga completa (mAh):	4277
+  Información sobre el estado:
+  Número de ciclos:	467
+  Condición:	Reparar batería
+  Batería instalada:	Sí
+  Amperaje (mA):	370
+  Voltaje (mV):	12556
+
+Configuración de alimentación del sistema:
+
+  Alimentación de CA:
+  Temporizador de reposo del sistema (en minutos):	10
+  Temporizador de reposo del disco (en minutos):	10
+  Mostrar temporizador de reposo (en minutos):	10
+  Activar al cambiar el modo de alimentación:	No
+  Activar al abrir la pantalla:	Sí
+  Activar al acceder a la red local:	Sí
+  AutoPowerOff Delay:	14400
+  AutoPowerOff Enabled:	1
+  Fuente de alimentación actual:	Sí
+  El reposo de la pantalla utiliza atenuación:	Sí
+  Hibernate Mode:	3
+  PrioritizeNetworkReachabilityOverSleep:	0
+  Standby Delay:	4200
+  Standby Enabled:	0
+  Carga de la batería:
+  Temporizador de reposo del sistema (en minutos):	0
+  Temporizador de reposo del disco (en minutos):	0
+  Mostrar temporizador de reposo (en minutos):	15
+  Activar al cambiar el modo de alimentación:	No
+  Activar al abrir la pantalla:	Sí
+  AutoPowerOff Delay:	14400
+  AutoPowerOff Enabled:	1
+  El reposo de la pantalla utiliza atenuación:	Sí
+  Hibernate Mode:	3
+  Reducir brillo:	Sí
+  Standby Delay:	4200
+  Standby Enabled:	0
+
+Configuración del hardware:
+
+  SAI instalado:	No
+
+Información del cargador CA:
+
+  Conectado:	Sí
+  ID:	0x0100
+  Potencia eléctrica (W):	60
+  Revisión:	0x0000
+  Familia:	0x0085
+  Número de serie:	0x00858961
+  Cargando:	Sí
+

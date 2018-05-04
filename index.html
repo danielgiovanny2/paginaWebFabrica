@@ -7,12 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- librerias para bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+    <!-- slydeshowGallery (slider) -->
     <link rel="stylesheet" href="/css/slydeshowGallery.css">
+    <!-- paralax  ventana transparente donde van a ir los productos detallados -->
     <link rel="stylesheet" href="/css/paralax.css">
-
-    
-
+    <!-- estilos de fuentes y tipos de letra de la pagina -->
+    <link rel="stylesheet" href="/css/stylesWeb.css">
+    <!-- estilos de tabs -->
+    <link rel="stylesheet" href="/css/tabsPortfolio.css">
+    <!-- estilos de portfolioProducts -->
+    <link rel="stylesheet" href="/css/portfolioProducts.css">
 
 
 
@@ -63,7 +67,7 @@
                   <a class="prev" onclick="plusSlides(-1)">❮</a>
                   <a class="next" onclick="plusSlides(1)">❯</a>
                 
-                  <div class="caption-container">
+                  <div class="caption-container container-fluid">
                     <p id="caption"></p>
                   </div>
                 
@@ -95,40 +99,160 @@
             
             <!-- div para quienes somos -->
             
-            <div class="quienesSomos">
+            <div class="quienesSomos container">
             
-              <div id="overlay" onclick="off()">
-                <div id="text">
-                  
-                  <h1 style="padding-bottom: 50px;  text-align: center">INDUSTRIA DE PRODUCTOS LACTEOS IANNINI LTDA</h1>
-                  
-                  <img src="/images/slideshowGallery/1.jpg" alt="">
-                  <p style="padding-top: 15px;  text-align: center; font-size: 16px"> La empresa Industria De Productos Lacteos Iannini S A S se encuentra ubicada en la localidad de BOGOTA, en el departamento de BOGOTA. El domicilio social de esta empresa es CALLE 166 19 B 24, BOGOTA, BOGOTA.
+              <h1  id="quienesSomos"class="quienesSomos" style="color: darkgreen">Quienes somos?</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ad quibusdam tenetur doloremque a nihil, molestiae sunt temporibus
+                suscipit quasi? Delectus atque non officiis voluptas harum, hic laboriosam reprehenderit alias!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas, tenetur quisquam, magni nostrum accusantium qui eius accusamus eaque iste vel enim aliquam deserunt laboriosam itaque fugit, ab veniam explicabo!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, adipisci corrupti nihil ab facilis, fuga numquam ratione modi fugit non laboriosam? Debitis explicabo temporibus sunt, similique aliquam laborum non aspernatur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit totam fugit aut rerum at optio dolorum, neque architecto minus ducimus placeat, qui sint explicabo, aspernatur omnis nulla ut fugiat obcaecati?</p>  
 
-                      La forma jurídica de Industria De Productos Lacteos Iannini S A S es SOCIEDAD POR ACCIONES SIMPLIFICADA y su principal actividad es "Elaboracion de productos lacteos".
-            
-                  </p>
-                  
-                  
-            
-                </div>
-                 </div> 
-                  
-                 <div style="padding:absolute; color: black; text-align: center">
-                    <h2>Quienes somos?</h2>
-                    <button onclick="on()">Turn on overlay effect</button>
-                  </div>    
-
-                
-                
                     
 
                 <!-- cierra div quienes somos -->
             </div>
         
-            <!-- div para portafolio -->
-            <div class="myPortfolio">
+                          <!-- Contenedor Portafolio -->
+                          <div class="myPortfolio container">
+                                        
+                                      
+                                      <!-- <h1 style="text-align: center">Líneas de Productos</h1> -->
+                                      <!-- Botones de los tab -->
+                                              <div class="tab">
+                                                <button class="tablinks" onclick="openCity(event, 'italiana')" id="defaultOpen">Línea Italiana</button>
+                                                <button class="tablinks" onclick="openCity(event, 'colombiana')">Línea Colombiana</button>
+                                                
+                                              </div>
+                                              
+                                              
+                                              <!-- Productos línea Italiana -->
+                                              <div id="italiana" class="tabcontent">
+                                                
+                                                <p>Productos de la línea Italiana</p>
+                                                             
+                                                
+                                                <!-- MAIN (Center website) -->
+                                                                    <div class="main">
 
+                                                                      
+                                                                   
+                                                                      
+                                                                      
+                                                                      
+                                                                      <!-- Portfolio Gallery Grid -->
+                                                                      <div class="row">
+                                                                        <div class="columnProducts">
+                                                                          <div class="contentProducts">
+                                                                            <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                            <h3>Producto 1</h3>
+                                                                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="columnProducts">
+                                                                          <div class="contentProducts">
+                                                                          <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                            <h3>My Work</h3>
+                                                                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="columnProducts">
+                                                                          <div class="contentProducts">
+                                                                          <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                            <h3>Producto 2</h3>
+                                                                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="columnProducts">
+                                                                          <div class="contentProducts">
+                                                                          <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                            <h3>Producto 3</h3>
+                                                                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                          </div>
+                                                                        </div>
+                                                                      <!-- END GRID -->
+                                                                      </div>
+                                                                      
+                                                                      <div class="columnProducts">
+                                                                        <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                        <h3>Some Other Work</h3>
+                                                                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                      </div>
+                                                                      
+                                                                      <!-- END MAIN -->
+                                                                      </div>
+
+                                                <!-- cierra div productos linea italiana -->
+                                              </div>
+                                            
+                                              <!-- Productos línea Colombiana -->
+                                              <div id="colombiana" class="tabcontent">
+                                                
+
+                                                              <!-- MAIN (Center website) -->
+                                                              <div class="main">
+
+                                                                <p>Productos Línea Colombiana</p>
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                <!-- Portfolio Gallery Grid -->
+                                                                <div class="row">
+                                                                  <div class="columnProducts">
+                                                                    <div class="contentProducts">
+                                                                      <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                      <h3>Producto 1</h3>
+                                                                      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                    </div>
+                                                                  </div>
+                                                                  
+                                                                  <div class="columnProducts">
+                                                                    <div class="contentProducts">
+                                                                    <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                      <h3>My Work</h3>
+                                                                      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                    </div>
+                                                                  </div>
+                                                                  
+                                                                  <div class="columnProducts">
+                                                                    <div class="contentProducts">
+                                                                    <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                      <h3>Producto 2</h3>
+                                                                      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                    </div>
+                                                                  </div>
+                                                                  
+                                                                  <div class="columnProducts">
+                                                                    <div class="contentProducts">
+                                                                    <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                      <h3>Producto 3</h3>
+                                                                      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                    </div>
+                                                                  </div>
+                                                                <!-- END GRID -->
+                                                                </div>
+                                                                
+                                                                <div class="columnProducts">
+                                                                  <img src="/images/slideshowGallery/1.jpg" alt="queso" style="width:100%">
+                                                                  <h3>Some Other Work</h3>
+                                                                  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                                                                </div>
+                                                                
+                                                                <!-- END MAIN -->
+                                                                </div>
+                                              </div>
+                                              
+                                              
+
+                              <!-- cierra div contenedor principal -->
+                            </div>
+                
                 <!-- cierra div myPortfolio  -->
             </div>
         
@@ -142,5 +266,10 @@
 </body>
 </html>
 
+
+<!-- bootstrap minimizado para js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- estilos slideshowGallery y js slideshowGallery-->
 <script type="text/javascript" src="/js/slydeshowGallery.js"></script>
+<!-- script my portfolio -->
+<script type="text/javascript" src="/js/scriptPortfolio.js"></script>

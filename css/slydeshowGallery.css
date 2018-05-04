@@ -2,6 +2,7 @@
 body {
   font-family: Arial;
   margin: 0;
+  
 }
 
 * {
@@ -79,7 +80,7 @@ img {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  /* background-color: #222; */
   padding: 2px 16px;
   color: white;
   margin-left: -15px; 
