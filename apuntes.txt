@@ -111,3 +111,21 @@ ocupa el ancho total de la pantalla
 ****CONTAINER 
 ocupa el centro de la pantalla con margen 
 <div class="container" style="background-color:black; color:white">
+
+linea colombiana (4)
+      cuajada
+      queso campesino
+      crema de leche
+      mantequilla
+     
+
+linea italiana (9)
+      queso mozzarella trensa
+      queso mozzarella redonda
+      queso mozarella bloque
+      queso mozarella cilindro
+      queso mozarellina - bocconcini
+      queso pera 
+      queso parmesano
+      ricotta
+      queso mozzarella momposino
