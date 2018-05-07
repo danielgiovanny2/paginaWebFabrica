@@ -1,17 +1,11 @@
 
-body {
-  font-family: Arial;
-  margin: 0;
-  
-}
-
 * {
   box-sizing: border-box;
 }
 
 img {
   /* las imágenes se alinean a la mitad del contenedor  */
-  vertical-align: middle
+vertical-align: middle
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -46,7 +40,7 @@ img {
   margin-top: -50px;
   color:black;
   
-  opacity: 0.2; 
+  opacity: 0.9; 
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;

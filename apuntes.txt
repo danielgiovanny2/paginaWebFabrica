@@ -104,71 +104,10 @@ The .container-fluid class provides a full width container, spanning the entire 
 
 el que se utilizó en los div de la web fue *container* porque se acopla perfectamente a los demás div. 
 
-Información de la batería:
+**** CONTAINER-FLUID 
+ocupa el ancho total de la pantalla
+<div class="container-fluid" style="background-color:black; color:white">
 
-  Información sobre el modelo:
-  Número de serie:	W040540MHD3LC
-  Fabricante:	SMP
-  Nombre del dispositivo:	bq20z451
-  Pack Lot Code:	0
-  PCB Lot Code:	0
-  Versión del firmware:	201
-  Revisión de hardware:	000a
-  Revisión de celda:	165
-  Información sobre la carga:
-  Carga restante (mAh):	4212
-  Totalmente cargada:	No
-  Cargando:	Sí
-  Capacidad de carga completa (mAh):	4277
-  Información sobre el estado:
-  Número de ciclos:	467
-  Condición:	Reparar batería
-  Batería instalada:	Sí
-  Amperaje (mA):	370
-  Voltaje (mV):	12556
-
-Configuración de alimentación del sistema:
-
-  Alimentación de CA:
-  Temporizador de reposo del sistema (en minutos):	10
-  Temporizador de reposo del disco (en minutos):	10
-  Mostrar temporizador de reposo (en minutos):	10
-  Activar al cambiar el modo de alimentación:	No
-  Activar al abrir la pantalla:	Sí
-  Activar al acceder a la red local:	Sí
-  AutoPowerOff Delay:	14400
-  AutoPowerOff Enabled:	1
-  Fuente de alimentación actual:	Sí
-  El reposo de la pantalla utiliza atenuación:	Sí
-  Hibernate Mode:	3
-  PrioritizeNetworkReachabilityOverSleep:	0
-  Standby Delay:	4200
-  Standby Enabled:	0
-  Carga de la batería:
-  Temporizador de reposo del sistema (en minutos):	0
-  Temporizador de reposo del disco (en minutos):	0
-  Mostrar temporizador de reposo (en minutos):	15
-  Activar al cambiar el modo de alimentación:	No
-  Activar al abrir la pantalla:	Sí
-  AutoPowerOff Delay:	14400
-  AutoPowerOff Enabled:	1
-  El reposo de la pantalla utiliza atenuación:	Sí
-  Hibernate Mode:	3
-  Reducir brillo:	Sí
-  Standby Delay:	4200
-  Standby Enabled:	0
-
-Configuración del hardware:
-
-  SAI instalado:	No
-
-Información del cargador CA:
-
-  Conectado:	Sí
-  ID:	0x0100
-  Potencia eléctrica (W):	60
-  Revisión:	0x0000
-  Familia:	0x0085
-  Número de serie:	0x00858961
-  Cargando:	Sí
-
+****CONTAINER 
+ocupa el centro de la pantalla con margen 
+<div class="container" style="background-color:black; color:white">
